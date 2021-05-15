@@ -3,7 +3,8 @@
     "./src/**/*.ts"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "types"
   ],
   "compilerOptions": {
     "target": "ES2017",

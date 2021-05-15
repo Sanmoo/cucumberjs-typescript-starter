@@ -353,6 +353,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/tmp@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "@types/tmp@npm:0.2.0"
+  checksum: 8b3d8ce993db6129112690d2fc4a8615c8073bd47a3dbcb3384563077f6081c560912aa6c53bb46ec4b45fca1e26c2f811273534acdafdcc224fc49a8bd85467
+  languageName: node
+  linkType: hard
+
 "@types/uuid@npm:^8.3.0":
   version: 8.3.0
   resolution: "@types/uuid@npm:8.3.0"
@@ -842,6 +849,7 @@ __metadata:
     "@types/chai": ^4.2.18
     "@types/lodash": ^4.14.169
     "@types/prompt": ^1.1.0
+    "@types/tmp": ^0.2.0
     "@typescript-eslint/eslint-plugin": ^2.21.0
     "@typescript-eslint/parser": ^2.21.0
     allure-cucumberjs: ^2.0.0-beta.9
@@ -851,8 +859,10 @@ __metadata:
     eslint-config-prettier: ^8.3.0
     eslint-plugin-cucumber: ^1.4.0
     eslint-plugin-prettier: ^3.4.0
+    open-file-explorer: ^1.0.2
     prettier: ^2.3.0
     prompt: ^1.1.0
+    tmp-promise: ^3.0.2
     ts-node: ^9.1.1
     typescript: ^4.2.4
   languageName: unknown
@@ -1821,6 +1831,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"open-file-explorer@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "open-file-explorer@npm:1.0.2"
+  checksum: 6674cd7ee91176e24222d0271898a619a7daa7de15ca77764156e2208bcc4fbf253bf67ba3e016265173bcd70e01820b1edbcaa46fa5d8c1464776f5f27f274a
+  languageName: node
+  linkType: hard
+
 "open@npm:^6.4.0":
   version: 6.4.0
   resolution: "open@npm:6.4.0"
@@ -2394,6 +2411,15 @@ resolve@^1.19.0:
   languageName: node
   linkType: hard
 
+"tmp-promise@npm:^3.0.2":
+  version: 3.0.2
+  resolution: "tmp-promise@npm:3.0.2"
+  dependencies:
+    tmp: ^0.2.0
+  checksum: dceb1616b2d97bcc20f84544aa6ad0cb02b975da1cf2336648ea2e5f32e3be14d5c54dfc2dfdeedbd7d077ac99d8889d005db2be29c7c8da5d7a9d9207bda013
+  languageName: node
+  linkType: hard
+
 "tmp@npm:^0.0.33":
   version: 0.0.33
   resolution: "tmp@npm:0.0.33"
@@ -2403,7 +2429,7 @@ resolve@^1.19.0:
   languageName: node
   linkType: hard
 
-"tmp@npm:^0.2.1":
+"tmp@npm:^0.2.0, tmp@npm:^0.2.1":
   version: 0.2.1
   resolution: "tmp@npm:0.2.1"
   dependencies:
