@@ -5,5 +5,5 @@ export interface CustomParameters {
 }
 
 export const defaults: Partial<CustomParameters> = {
-    headless: true
+    headless: true,
 };
